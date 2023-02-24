@@ -1,5 +1,8 @@
 package timnekk;
 
+/**
+ * Exception that is thrown when serialization fails.
+ */
 public class SerializationException extends Exception {
     public SerializationException(String message) {
         super(message);
